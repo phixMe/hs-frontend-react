@@ -5,7 +5,7 @@
 
 ## Angular App
 
-note: see angular product
+note: see ng project
 
 Angular follows a Component based architecture, so migrating from React --> Angular is a simple task, involving the
 replacement of decorators and annotations at the top of the component files. Angular does contain some nice things
