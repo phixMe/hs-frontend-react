@@ -1,5 +1,20 @@
 # HotSchedules Front-end Engineering Challenge
 
+## React App Screenshot
+![Screenshot](react_app.png)
+
+## Angular App
+note: see angular product
+Angular follows a Component based architecture, so migrating from React --> Angular is a simple task, involving the
+replacement of decorators and annotations at the top of the component files. Angular does contain some nice things
+by default, like pipes which can be used with currencies.
+
+## jQuery App
+note: see jQuery project
+Making this compatible with an exiting jQuery based application would involve copying the markup from the render function
+into the appropriate html file. The javascript could be attached as <script> tags. An ajax call would retrieve the data set
+and append list items to an ordered list.
+
 ## Narrative 
 
 After realizing the user experience of their application suite is disjointed, shadowy upper-management figures
@@ -72,6 +87,4 @@ Write the TopSalesList component in 'src/top-sales-list'.
 
 You can write a utility function to help transform the data from the server to a format more
 conducive to your component if needed in 'src/utils/'.
-
-
 
