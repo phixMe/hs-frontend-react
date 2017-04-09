@@ -1,1 +1,17 @@
 //write styles here
+
+body {
+  font-family: "Roboto Lt", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.panel {
+  border: 1px #F5F5F5 solid;
+  padding: 5px;
+  width: 500px;
+}
+
+.title {
+  font-size: 16px;
+  color: black;
+}

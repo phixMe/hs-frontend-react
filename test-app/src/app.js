@@ -5,9 +5,8 @@ import transformData from "../../dist/Utils/transformData.js";
 import request from 'request';
 
 request.get('http://localhost:3000/PurchaseOrders', function (error, response, body) {
-  console.log('body:', body); 
   
-  ReactDOM.render(<TopSalesList />, document.getElementById('app'));
+  ReactDOM.render(<TopSalesList sales={JSON.parse(body)}/>, document.getElementById('app'));
 });
 
 
